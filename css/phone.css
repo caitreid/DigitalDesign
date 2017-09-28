@@ -17,7 +17,6 @@
     width: 26vw;
     margin: 22px 20px 20px 20px;
   }
-
 }
 
 
@@ -46,13 +45,11 @@
     margin-left: 38.5%;
     margin-right: 38.5%;
   }
-/*  html {
-    background-color: pink;
-  }*/
   .footer{
     margin-bottom: 0px;
   }
-  /* PROJECT PAGES */
+
+  /* ---------- PROJECT PAGES ----------*/
   .logo {
     width: 26vh;
     margin: 22px 20px 20px 20px;
@@ -72,16 +69,44 @@
   .side-nav .user-view {
     margin-bottom: 0px;
   }
-
+  .leftDesc {
+    width: 100%;
+  }
+  .rightDesc {
+    display: none;
+  }
+  .rightDescMobile{
+    display: block;
+    padding: 3% 10% 5% 12%;
+  }
+  /*-------- FOOTER Mobile Landscape -------- */
+  .prev {
+    margin-left: 5vw;
+  }
+  .based {
+    margin-left: 3vw;
+    display: none;
+  }
+  .social-media {
+    width: 23%;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+  }
+  .hire-me {
+    display:none;
+  }
+  .next {
+    margin-right: 5vw;
+  }
 }
 
 @media only screen and (max-height: 330px) and (orientation: landscape){
   img.menu-items {
     padding-top: 1.9rem;
     width: 56%
-  }
-  html {
-    color: pink;
   }
   .side-nav li>a {
     height: 2rem;
@@ -106,4 +131,9 @@
   }
 }
 
+/* ---------- Libreo LANDSCAPE ---------- */
+@media only screen and (max-height: 599px) and (orientation: landscape){
+
+
+}
 
