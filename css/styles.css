@@ -404,6 +404,14 @@ ul {
   display: none;
 }
 
+.img-mobile-div{
+  width:100%;
+}
+
+.img-mobile{
+  width: inherit;
+}
+
 .rightDesc {
   background-color: white;
   float:right;

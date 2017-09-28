@@ -1,21 +1,79 @@
 /* PHONE media queries */
 
-/* ------- PORTRAIT -------- */
+/* ------- Mobile PORTRAIT Large-------- */
 @media only screen and (max-width: 599px) and (orientation: portrait){
   #portfolio-footer {
     width:40%;
     margin-left: 30%;
     margin-right: 30%
   }
-
   .circles-container{
     margin-left: 3rem;
     margin-right: 3rem;
   }
-
   .logo {
     width: 26vw;
     margin: 22px 20px 20px 20px;
+  }
+  .social-media {
+    width: 40%;
+  }
+  .leftDesc{
+    width: 100%;
+  }
+  .rightDesc {
+    display: none;
+  }
+  .rightDescMobile{
+    display: block;
+    padding: 3% 10% 5% 12%;
+  }
+
+  /* ------- FOOTER Landscape --------*/
+  .prev {
+    margin-left: 5vw;
+  }
+  .based {
+    margin-left: 3vw;
+    display: none;
+  }
+  .social-media {
+    width: 38%;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+  }
+  .hire-me {
+    display:none;
+  }
+  .next {
+    margin-right: 5vw;
+  }
+  .next-img {
+    width: 9vw;
+    margin-top: 1.5vw;
+  }
+  .prev-img{
+    width: 9vw;
+    margin-top: 1.5vw;
+  }
+  .arrow-text{
+    display: none;
+  }
+  .footer{
+    margin-bottom: 0px; 
+  }
+
+  /* ----- Libreo -----*/
+  .desktop-image{
+    display: none;
+  }
+    /*--- LIBREO --*/
+  #logo-libreo {
+    margin-top: 41vh;
+    width:62%;
   }
 }
 
@@ -79,7 +137,7 @@
     display: block;
     padding: 3% 10% 5% 12%;
   }
-  /*-------- FOOTER Mobile Landscape -------- */
+  /*-------- FOOTER Mobile Landscape BIG -------- */
   .prev {
     margin-left: 5vw;
   }
@@ -103,6 +161,7 @@
   }
 }
 
+/* ------ Mobile Landscape SMALL -----*/
 @media only screen and (max-height: 330px) and (orientation: landscape){
   img.menu-items {
     padding-top: 1.9rem;
@@ -116,7 +175,52 @@
     width: 260px;
   }
 }
+/* ------ Mobile Portrait SMALL -----*/
+@media only screen and (max-width: 330px) and (orientation: portrait){
 
+.social-media {
+    width: 40%;
+  }
+  p {
+    font-size: 1em;
+  }
+  b{
+    font-size: 1.05em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+/*  .leftDesc{
+    width: 100%;
+  }
+  .rightDesc {
+    display: none;
+  }
+  .rightDescMobile{
+    display: block;
+    padding: 3% 10% 5% 12%;
+  }*/
+/*  html {
+    color:pink;
+  }*/
+}
+/* ------ Mobile Portrait MEDIUM ---- */
+@media only screen and (min-width: 400px) and (orientation:portrait){
+  p {
+    font-size: 1.15em;
+  }
+  b{
+    font-size: 1.05em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+/*  html {
+    color:pink;
+  }*/
+}
+
+/* ------ Mobile Landscape MEDIUM ------- */
 @media only screen and (min-height: 400px) and (orientation: landscape){
   .side-nav li>a {
     height: 2.1rem;
@@ -129,6 +233,18 @@
     margin-bottom: 1em;
     padding-bottom: .25em;
   }
+/*  p {
+    font-size: 1.25em;
+  }
+  b{
+    font-size: 1.15em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  html {
+    color:pink;
+  }*/
 }
 
 /* ---------- Libreo LANDSCAPE ---------- */
