@@ -12,8 +12,6 @@
     margin-left: 3rem;
     margin-right: 3rem;
   }
-
-
 }
 
 
@@ -25,13 +23,27 @@
   #orange {
     margin-top: 29vh;
   }
+  .circles-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
   .circles {
     width: 24%;
     padding: 0.15rem;
   }
-  #portfolio-footer {
-    width: 20%;
-    margin-left: 40%;
-    margin-right: 40%;
+  #portfolio-title {
+    font-size: 1.25em;
   }
+  #portfolio-footer {
+    width: 23%;
+    margin-left: 38.5%;
+    margin-right: 38.5%;
+  }
+/*  html {
+    background-color: pink;
+  }*/
+  .footer{
+    margin-bottom: 0px;
+  }
+
 }
