@@ -1,0 +1,14 @@
+/* PHONE media queries */
+
+
+@media only screen and 
+  (max-width: 599px) and 
+  (orientation: portrait) {
+
+    #portfolio-footer {
+      width:32.5vw;
+
+    }
+    
+
+}

@@ -1,6 +1,8 @@
 html, body
 {
+  font-size: 16px;
   height: 100%;
+  background-color: white;
 }
 @font-face {
     font-family: 'League Gothic';
@@ -309,13 +311,22 @@ body {
 #orange {
   margin: auto;
   display: block;
-  position: absolute;
+  /*position: absolute;*/
 /*  margin-top: 35vh;*/
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  width:25vw;
+  width:45vh;
+  margin-top: 35vh;
+}
+
+#expand_more {
+  color:#e1c8bf; 
+  display: block;
+  margin: 0 auto;
+  width: 1px;
+  margin-top: 5vh;    
 }
 
 #logo-soel {
@@ -615,8 +626,8 @@ body {
 
 .icon {
   /*padding:5px;*/
-  width:2.5vw;
-  margin: 7px;
+  width: 3rem;
+  margin: .25rem;
 }
 
 .social-media {
@@ -654,9 +665,8 @@ body {
   margin-bottom: 10px;
 }
 .circles {
-  width: 17vw;
-  padding: 5px;
-  margin: 5px;
+  width: 48%;
+  padding: 0.5rem;  
 }
 
 #portfolio-footer {
@@ -675,6 +685,11 @@ body {
   margin-bottom: 10px;
 }
 
+.index-container {
+  height: 100%;
+  width:100%;
+}
+
 @media only screen and (max-width: 990px) {
 
   .portfolioView {
@@ -683,22 +698,12 @@ body {
 
 }
 
+
+
 /* -- menu --*/
 
 .menu-items {
   margin-left: 8px;
 }
 
-
-
-/*header, main, footer {
-  padding-left: 300px;
-}
-
-@media only screen and (max-width : 992px) {
-  header, main, footer {
-    padding-left: 0;
-  }
-}
-         */
 
