@@ -12,11 +12,18 @@
     margin-left: 3rem;
     margin-right: 3rem;
   }
+
+  .logo {
+    width: 26vw;
+    margin: 22px 20px 20px 20px;
+  }
+
 }
 
 
 /* ---------- LANDSCAPE ---------- */
 @media only screen and (max-height: 599px) and (orientation: landscape){
+  /* INDEX */
   #portfolio-title {
     font-size: 1em;
   }
@@ -45,5 +52,58 @@
   .footer{
     margin-bottom: 0px;
   }
+  /* PROJECT PAGES */
+  .logo {
+    width: 26vh;
+    margin: 22px 20px 20px 20px;
+  }
+
+  img.menu-items {
+    width: 60%;
+    padding-top: 2.5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: .25em;
+  }
+  .side-nav li>a {
+    height: 2.2rem;
+    font-size: .8em;
+  }
+  .side-nav .user-view {
+    margin-bottom: 0px;
+  }
 
 }
+
+@media only screen and (max-height: 330px) and (orientation: landscape){
+  img.menu-items {
+    padding-top: 1.9rem;
+    width: 56%
+  }
+  html {
+    color: pink;
+  }
+  .side-nav li>a {
+    height: 2rem;
+    font-size: .7em;
+  }
+  .side-nav{
+    width: 260px;
+  }
+}
+
+@media only screen and (min-height: 400px) and (orientation: landscape){
+  .side-nav li>a {
+    height: 2.1rem;
+    font-size: 1em;
+  }
+  img.menu-items {
+    width: 65%;
+    padding-top: 3rem;
+    margin-top: 0px;
+    margin-bottom: 1em;
+    padding-bottom: .25em;
+  }
+}
+
+
