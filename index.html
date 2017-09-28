@@ -7,6 +7,9 @@
       <link type="text/css" rel="stylesheet" href="./css/materialize.min.css"  media="screen,projection"/>
       <!-- CSS -->
       <link rel="stylesheet" href="./css/styles.css">
+      <link rel="stylesheet" href="./css/phone.css">
+      <link rel="stylesheet" href="./css/tablet.css">
+      <link rel="stylesheet" href="./css/desktop.css">
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -18,14 +21,13 @@
 <!-- MENU MENU MENU -->
   <script type="text/javascript">
     $(document).ready(function(){
-
       $('.button-collapse').sideNav({
         menuWidth: 300, // Default is 240
         edge: 'right', // Choose the horizontal origin
         closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
     }
   );
-    });
+});
   </script>
       <ul id="slide-out" class="side-nav">
         <li><div class="user-view" 
@@ -101,54 +103,47 @@
   ">
   <div 
     style="width: 100%">
-    <!-- <img class="" src="../images/index/index4.jpg" 
-    style="
-      width: 100vw;
-      position: relative;
-    "> -->
+
   </div>
 
   <br>
   <br>
         
+    <div class="index-container">
+      <img  id="orange" src="./images/index/index3.png">
+
+      <i class="material-icons" id="expand_more">
+        expand_more</i>
       
-      <img  id="orange" src="./images/index/index3.png" style="width:25vw;">
-      <div>
-
-      </div>
     </div>
-    </div>
-<!--       <div style="postion: absolute;"> 
-        <p> Caitlin Reid</p>
-      </div> -->
-
-<!-- <div style="height: 100%;"> -->
+  </div>
 
 
-<!--         <p style="text-align: center; color: #e2d0cc; font-size: 5vh;">
-          portfolio - about - contact 
-        </p> -->
-<!--         <img style="width:9vw;"
-        src="../images/index/portfolio.svg"> -->
+
 
 
 
 <!-- PART 2 -->
-  <div style="height: 100vh; background-color:;">
+
+  <div class="part2-container"
+  style="height: 100vh; background-color:;">
 
   <div style="
     font-size: 4vw; 
     text-align: center; 
     padding-top: 5vh;
     padding-bottom: 3vh;">
-    <h3 style="font-size: 4vw;">
+
+    <h3 style="font-size: 1.8em;">
       Portfolio
     </h3>
   </div>
 
+<!-- circles -->
+<div class="circles-container">
   <div style="    
-    margin: 10px;
-    margin-left: 13vw;
+    margin-left: 3rem;
+    margin-right: 3rem;
   ">
     <a href="./pages/Agile.html">
       <img class="circles" src="./images/circles/IK.png">
@@ -162,12 +157,6 @@
     <a href="./pages/Wildflower.html">
       <img class="circles" src="./images/circles/wildflower2.png">
     </a>
-  </div>
-
-  <div style="    
-    margin: 10px;
-    margin-left: 13vw;
-  ">
     <a href="./pages/Wildfire.html">
       <img class="circles" src="./images/circles/map.png">
     </a>
@@ -181,6 +170,8 @@
       <img class="circles" src="./images/index/lets1.png">
     </a>
   </div>
+</div>
+
 
       <!-- FOOTER -->
   <footer>
@@ -188,10 +179,9 @@
       style="
         margin-top: 10px;
         margin-bottom: 10px;
+        height: auto;
       ">
       <!-- <div class="footerLeft"> -->
-     
-
       <div class="social-media" id="portfolio-footer">
         <a href="https://www.behance.net/caitlinreid">
           <img class="icon" src="./images/footer/behance-black.gif">
@@ -205,18 +195,6 @@
       </div>
     </div> 
 
-<!--       <div class="footerRight">
-        <div class="hire-me">
-          Hire Me!
-        </div> -->
-
-        <!-- <div class="next">
-            
-          <a  href="./pages/Libreo.html">
-          <img class="next-img" src="../images/footer/next.png">
-          Next</a>
-        </div> -->
-
       </div> 
     </div> 
   </footer>
@@ -228,9 +206,6 @@
 
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="./js/materialize.min.js"></script>
-<!--     <script type="text/javascript" src="js/materialize.min.js"></script> -->
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
   </body>
 </html>
 
