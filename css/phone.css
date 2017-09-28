@@ -78,7 +78,7 @@
 }
 
 
-/* ---------- LANDSCAPE ---------- */
+/* ---------- LANDSCAPE LARGE ---------- */
 @media only screen and (max-height: 599px) and (orientation: landscape){
   /* INDEX */
   #portfolio-title {
@@ -137,6 +137,14 @@
     display: block;
     padding: 3% 10% 5% 12%;
   }
+  .desktop-image{
+    display: block;
+  }
+  .img-mobile-div{
+    display:none;
+  }
+
+
   /*-------- FOOTER Mobile Landscape BIG -------- */
   .prev {
     margin-left: 5vw;
@@ -158,6 +166,12 @@
   }
   .next {
     margin-right: 5vw;
+  }
+  .next-img {
+    width: 4vw;
+  }
+  .prev-img {
+    width: 4vw;
   }
 }
 
@@ -233,18 +247,6 @@
     margin-bottom: 1em;
     padding-bottom: .25em;
   }
-/*  p {
-    font-size: 1.25em;
-  }
-  b{
-    font-size: 1.15em;
-  }
-  h3 {
-    font-size: 2em;
-  }
-  html {
-    color:pink;
-  }*/
 }
 
 /* ---------- Libreo LANDSCAPE ---------- */
