@@ -325,7 +325,7 @@ body {
   color:#e1c8bf; 
   display: block;
   margin: 0 auto;
-  width: 1px;
+  width: 10px;
   margin-top: 5vh;    
 }
 
@@ -625,8 +625,7 @@ body {
 }
 
 .icon {
-  /*padding:5px;*/
-  width: 3rem;
+  width: 25%;
   margin: .25rem;
 }
 
