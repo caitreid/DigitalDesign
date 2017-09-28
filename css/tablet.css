@@ -1,1 +1,41 @@
 /* TABLET media queries */
+
+/* --------------- PORTRAIT ------------------ */
+@media only screen and (min-width: 600px) and (max-width: 1199px) and (orientation: portrait) {
+  .circles {
+    padding: 1.0rem
+  }
+
+  .circles-container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  #portfolio-footer {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+
+  #expand_more {
+    width: 20px;
+    font-size: 60px;
+  }
+
+  .menu-items {
+    font-size: 1.25em !important;
+  }
+
+
+}
+
+/* --------------- LANDSCAPE ------------------ */
+@media only screen and (min-width: 600px) and (max-width: 1199px) and (orientation: landscape) {
+  .circles-container{
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+}
+
+

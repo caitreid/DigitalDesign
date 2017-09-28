@@ -68,12 +68,10 @@ body {
 }
 
 .hamburger{
-  width: 20px;
-  margin-right:4vw;
-  margin-top: 4vh;
-  margin-left: 95vw;
-  float: right;
-  position: fixed;  
+  float:right; 
+  margin: 20px;
+  position: fixed;
+  right: 0;  
 }
 
 .button {
@@ -101,7 +99,17 @@ body {
 
 }
 
+#portfolio-title-container {
+  font-size: 4vw; 
+  text-align: center; 
+  padding-top: 5vh;
+  padding-bottom: 3vh;  
+}
 
+
+#portfolio-title {
+  font-size: 1.8em;
+}
 
 #splash {
   background: #ffffff url("./images/wall1.jpg") no-repeat left top fixed;

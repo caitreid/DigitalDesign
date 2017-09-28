@@ -1,1 +1,25 @@
 /* DESKTOP media queries */
+
+@media only screen and (min-width: 1200px) {
+  #portfolio-title-container {
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 4vh;
+    padding-bottom: 1vh;
+  }
+
+  #portfolio-title {
+    font-size: 1em;
+  }
+  .circles-container {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+  }
+
+  .circles {
+    width: 24%;
+    padding: .75rem;
+  }
+}
