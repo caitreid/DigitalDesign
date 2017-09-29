@@ -79,7 +79,6 @@
     <li><a class="waves-effect menu-items" href="./Wildfire.html">Wildfire</a></li>
     <li>
 
-    
   </div>
 
   </ul>
@@ -100,9 +99,8 @@
   </div>
 </header>
 <!-- MENU MENU MENU MENU -->
-
-
    
+<!-- Head image-->
   <div 
     class="homepage"
     id="homepage-wildflower"
@@ -110,12 +108,11 @@
     height: 100vh;
     overflow-y: hidden;
   ">
-
+    <img  id="logo-wildflower" src="../images/wildflower/logo.png"> 
   </div>
 
     <!-- TEXT DESCRIPTION -->
-    <div class="description-div">
-<!--  -->
+    <div class="description-div" style="float:left">
       <div class="leftDesc"> 
       <h3 class="title">
       The Widflower Collection
@@ -131,46 +128,70 @@
         Caitlin Reid
       </div>
     </div>
-    <!-- END TEXT DESCRIPTION -->
-    <!--left -->
+
+  <!-- END TEXT DESCRIPTION -->
+
+    <!--Closeup (left) -->
+    <div class=""  
+    style="
+    /*height: 600px;*/
+    width: 50vw;
+    float: left;"
+  >
+    <div class="desktop-image"
+      style="width: inherit;">  
+      <img src="../images/wildflower/closeup.jpg" 
+        style="width: inherit;">
+    </div> 
+  </div>
+
+
+    <!-- mobile -->
+    <div class="img-mobile-div" style="float:left">
+      <img class="img-mobile" src="../images/wildflower/closeup.jpg">
     </div>
-    <div class="" id="" 
-      style="
-      /*height: 600px;*/
-      width: 50vw;
-      float: left;"
-    >
-      <div class=""
-        style="width: inherit;">  
-        <img src="../images/wildflower/closeup.jpg" 
-          style="width: inherit;">
-      </div>  
-    </div>
-    <!--right-->
-    <div style="
+
+    <!--Logo (right)-->
+    <div class="desktop-image"
+    style="
       float: right;
       width: 50vw;">
       <img id="" src="../images/wildflower/W.png"
       style="width: inherit;">
     </div>
 
+    <!-- mobile -->
+    <div class="img-mobile-div" style="float:left">
+      <img class="img-mobile" src="../images/wildflower/W.png">
+    </div>
 
-  <!-- FERN + SCREENCAPTURE -->
-    <div>
+
+  <!-- SCREENCAPTURE -->
+  <div>
       <!-- <img class="full-width-img" src="../images/Wildflower/fern.jpeg"> -->
-
+    <div class="desktop-image">
       <img src="../images/wildflower/splash.png" 
         style="
           width: 80vw;
           margin: 10vw;
       ">
     </div>
-<!--       <div class="" id="video"> 
+  <!-- mobile -->
+<!--     <div class="img-mobile-div" style="float:left">
+      <img class="img-mobile" src="../images/wildflower/splash.png">
+    </div> -->
+
+  </div>
+
+<!-- <div class="" id="video"> 
       <video width="100%" height="" autoplay loop>
         <source src="../images/wildflower/promo3.mp4" type="video/mp4">
         </video>
     </div> -->
-    <div style="background-color: #F6AD99; height: 45vh;">
+
+<!--- PRODUCT PHOTOGRAPHY -->
+
+    <div style=" width: 100%; background-color: #F6AD99; height: 45vh; float:left">
       <div style="margin: 0 auto;">
         <h3 class="productphotography">
           Product Photography
@@ -178,32 +199,51 @@
       </div>
     </div>
     <div>
-      <div class="thirdRightDiv" id="johnmuir3">
+    <!-- product1 -->
+      <div class="thirdRightDiv desktop-image" id="johnmuir3">
         <img src="../images/wildflower/product/1.png" 
-        style="
-        height: 100%;">
+        class="product-img">
       </div>
-      <div class="thirdRightDiv" id="johnmuir3">
+
+      <div class="img-mobile-div product-m" style="float:left">
+        <img class="img-mobile" src="../images/wildflower/product/1.png">
+      </div>
+
+    <!-- product2 -->
+      <div class="thirdRightDiv desktop-image" id="johnmuir3">
         <img src="../images/wildflower/product/2.png" 
-          style="
-          height: 100%;"
-        >
+          class="product-img">
       </div>
-      <div class="thirdRightDiv" id="johnmuir3">
+
+      <div class="img-mobile-div product-m" style="float:left">
+        <img class="img-mobile" src="../images/wildflower/product/2.png">
+      </div>
+
+    <!-- product3-->
+      <div class="thirdRightDiv desktop-image" id="johnmuir3">
         <img src="../images/wildflower/product/3.png" 
-        style="
-        height: 100%;">
+        class="product-img">
       </div>
-      <div class="thirdRightDiv" id="johnmuir3">
+
+      <div class="img-mobile-div product-m" style="float:left">
+        <img class="img-mobile" src="../images/wildflower/product/3.png">
+      </div>
+
+      <!-- product4 -->
+      <div class="thirdRightDiv desktop-image" id="johnmuir3">
         <img src="../images/wildflower/product/4.png" 
-          style="
-          height: 100%;"
-        >
+          class="product-img">
       </div>
+
+      <div class="img-mobile-div product-m" style="float:left">
+        <img class="img-mobile" src="../images/wildflower/product/4.png">
+      </div>
+
     </div>
 
     <!-- 2nd -->
-    <div class="" id="video" style="margin-bottom: 15px;"> 
+    <div class="desktop-image" id="video" 
+    style="float:left; margin-bottom: 15px;"> 
       <video width="100%" height="" autoplay loop >
         <source src="../images/wildflower/promo3.mp4" type="video/mp4">
         </video>
@@ -217,7 +257,8 @@
         <div class="prev"> 
           <a href="./Outdoorsy.html">
           <img class="prev-img" src="../images/footer/prev.png"> 
-          Previous</a>
+          <section class="arrow-text">Previous</section>
+        </a>
         </div>
 
         <div class="based">
@@ -246,7 +287,8 @@
             
           <a  href="./ArtCriticism.html">
           <img class="next-img" src="../images/footer/next.png">
-          Next</a>
+          <section class="arrow-text">Next</section>
+        </a>
         </div>
 
       </div> 

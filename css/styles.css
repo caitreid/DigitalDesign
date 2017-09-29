@@ -241,6 +241,9 @@ ul {
   padding: 0 0 0 0 !important;
 }
 
+.product-img {
+  height: 100%;
+}
 
 #wildfire-logo {
   margin: 0 auto;
@@ -261,6 +264,17 @@ ul {
   right: 0;
   width: 30%;
 }
+
+#logo-wildflower{
+  margin: 0 auto;
+  display:block;
+  position: absolute;
+  margin-top: 35vh;
+  left: 0;
+  right: 0;
+  width: 30%;
+}
+
 
 .profilepic {
   float:left;
@@ -310,9 +324,8 @@ ul {
 }
 
 #homepage-Wildflower {
-  background-image: url(../images/wildflower/head4.png);
+  background-image: url(../images/wildflower/head5.png);
 }
-
 
 #homepage-Wildfire {
   background-image: url(../images/wildfire/map7.png);

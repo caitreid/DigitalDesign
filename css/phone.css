@@ -82,9 +82,6 @@
   }
 
   /* ----- Libreo -----*/
-/*  .desktop-image{
-    display: none;
-  }*/
   #logo-libreo {
     margin-top: 41vh;
     width:62%;
@@ -127,6 +124,25 @@
   .subtitle {
     font-size: 1em;
   }
+
+  /*-- wildflower collection---*/
+  .product-m{
+    padding:2em;
+  }
+  .productphotography{
+    margin-top: 14vh;
+    text-align: center;
+    margin-right: 0;
+    font-size: 2.5em;
+  }
+  .homepage {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  #logo-wildflower{
+    margin-top: 40vh;
+    width: 65vw;
+  }
 }
 
 
@@ -160,6 +176,7 @@
   }
 
   /* ---------- PROJECT PAGES ----------*/
+
   .logo {
     width: 26vh;
     margin: 22px 20px 20px 20px;
@@ -225,6 +242,21 @@
     margin-top:43vh;
     width:45vw;
   }
+  /*--- wildflower -- */
+  .desktop-img {
+    display: none;
+  }
+  .product-img{
+    /*height: 100vh;*/
+    width: inherit;
+    height: auto;
+  }
+  .productphotography {
+    margin-right: 19vw;
+  }
+  .thirdRightDiv {
+    height:auto; 
+  }
 
 }
 
@@ -262,6 +294,10 @@
   .lineh2 {
     font-size: 1.15em;
   }
+  /*-- wildflower collection --*/
+  .productphotography {
+    font-size: 2.75em;
+  }
 }
 /* ------ Mobile Portrait MEDIUM ---- */
 @media only screen and (min-width: 400px) and (orientation:portrait){
@@ -274,7 +310,6 @@
   h3 {
     font-size: 2em;
   }
-
 
 }
 
