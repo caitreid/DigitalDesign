@@ -391,6 +391,11 @@ ul {
   margin-bottom: 10vh;
 }
 
+.tray-container {
+  height: 100vw;
+  overflow: hidden;
+}
+
 /* INDIVIDUAL */
 #libreo-desc {
   height: 430px !important;
