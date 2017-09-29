@@ -43,6 +43,12 @@
   #img-mobile-JM{
     height:inherit;
   }
+  #social-media-about{
+    width:36vw;
+  }
+  .hamburger{
+    width: 4.5vw;
+  }
 
   /* ------- FOOTER Portrait --------*/
   .prev {
@@ -150,8 +156,18 @@
   .container {
     margin-top: 13vh;
   }
-    html {
-    color:pink;
+  /*-- about ---*/
+  .about-div{
+    font-size: 1em;
+  }
+  .profilepic{
+    height: inherit;
+  }
+  .about-div{
+    width:100vw;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 

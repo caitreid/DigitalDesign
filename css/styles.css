@@ -77,15 +77,22 @@ ul {
   right: 0;  
 }
 
+#social-media-about{
+  position:inherit;
+  margin-left: 0;
+  margin-top: 3rem;
+  width: 12vw;
+}
+
 .button {
   background-color: #E45E16;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: .75rem 1.5rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: .75em !important;
   margin: 4px 2px;
   cursor: pointer;
   font-size: 45px;
@@ -281,11 +288,12 @@ ul {
   width: 50vw;
   height:100vh;
   overflow: hidden;
-  background-image: url(./images/profilepic.png);
+  background-image: url(../images/profilepic.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .homepage {
   background-position: center;
@@ -457,7 +465,18 @@ ul {
 
 
 
+.about-div{
+  width: 50vw;
+  float: right;
+  padding: 20px;
+  margin-top: 24vh;
+  padding-left: 16vh;
+  padding-right: 16vh;
+}
 
+.about-text{
+  font-size: 1.35em;
+}
 
 
 

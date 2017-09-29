@@ -121,6 +121,13 @@
     margin-top: 44vh;
     width:45vw;
   }
+  /*---AC--*/
+  #logo-AC{
+    width: 74vh;
+  }
+  .material-icons {
+    margin: 1vw;
+  }
 
 }
 
