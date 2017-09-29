@@ -28,6 +28,16 @@
     display: block;
     padding: 3% 10% 5% 12%;
   }
+  .desktop-image{
+    display: none;
+  }
+  .img-mobile-div{
+    width:100%;
+    display: block;
+  }
+  .img-mobile{
+    width: inherit;
+  }
 
   /* ------- FOOTER Landscape --------*/
   .prev {
@@ -70,10 +80,13 @@
   .desktop-image{
     display: none;
   }
-    /*--- LIBREO --*/
   #logo-libreo {
     margin-top: 41vh;
     width:62%;
+  }
+  /* ---- SOEL ---- */
+  #logo-soel {
+    width: 75%;
   }
 }
 
@@ -137,13 +150,7 @@
     display: block;
     padding: 3% 10% 5% 12%;
   }
-  .desktop-image{
-    display: block;
-  }
-  .img-mobile-div{
-    display:none;
-  }
-
+  
 
   /*-------- FOOTER Mobile Landscape BIG -------- */
   .prev {

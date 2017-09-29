@@ -404,13 +404,21 @@ ul {
   display: none;
 }
 
+
+
+
+.desktop-image{
+  display: block;
+}
 .img-mobile-div{
-  width:100%;
+  display:none;
 }
 
-.img-mobile{
-  width: inherit;
-}
+
+
+
+
+
 
 .rightDesc {
   background-color: white;
@@ -593,8 +601,10 @@ ul {
 
 /* FOOTER */
 .prev{
-  float:left;
+  /*float:left;*/
   margin-left: 10vw;
+  position: absolute;
+  left: 0;
 }
 
 .prev-img {
@@ -615,8 +625,10 @@ ul {
 }
 
 .next {
-  float:right;
+  /*float:right;*/
   margin-right: 10vw;
+  position: absolute;
+  right: 0;
 }
 
 .next-img {
@@ -642,8 +654,9 @@ ul {
 }
 
 .based {
-  float:left;
-  margin-left:10vw;
+  /*float:left;*/
+  position: absolute;
+  margin-left:22vw;
   padding-top: 15px;
   padding-bottom: 15px;
   font-family: "Circular-Book";
@@ -655,38 +668,47 @@ ul {
 }
 
 .social-media {
-  /*margin: auto;*/
+  margin: 0 auto;
   width: 14vw;
-  margin-left: 9.5vw;
-  float: left;
-/*  float: left;
-  margin-left: 26.5vw;*/
+  position: absolute;
+  left: 43%;
+  margin-left: 0%;
+  /*background-color: #00ff87;*/
 }
 
+
+
+
 .hire-me {
-  float: left;
+  /*float: left;*/
+  position: absolute;
+  right: 22%;
+  margin-right: 22vw;
+
   background-color: white;
   color: black;
   border: 1px;
   border-style: solid;
   border-color: black;
-  padding: 3px;
-  padding-left: 7px;
-  padding-right: 7px;
-  /* width: 10px; */
-  margin: 10px;
-  margin-right: 14vw;
-  font-family: "Circular-Book";
+  padding: 3px 10px 3px 10px;
+  margin: 10px 0 10px 10px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .footerLeft {
-  /*width: 10%;*/
-  /*margin-left: 8%;*/
   margin-right: 0px;
   float:left;
-  /*padding:10px;*/
-  /*height: 50px;*/
   margin-bottom: 10px;
+  display: inline-block;
+
+  width: 50%;
+  /*background-color: teal;*/
+  height: 50px;
 }
 .circles {
   width: 48%;
@@ -700,13 +722,15 @@ ul {
 }
 
 .footerRight {
-  /*width: 5%;*/
-  /*margin-right: 8%;*/
   margin-left: 0px;
   float: right;
-  /*padding:10px;*/
   height: 50px;
   margin-bottom: 10px;
+  display: inline-block;
+
+  width: 50%;
+  /*background-color: red;*/
+  height: 50px;
 }
 
 .index-container {

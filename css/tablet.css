@@ -1,7 +1,7 @@
 /* TABLET media queries */
 
 /* --------------- PORTRAIT ------------------ */
-@media only screen and (min-width: 600px) and (max-width: 1199px) and (orientation: portrait) {
+@media only screen and (min-width: 600px) and (max-width: 1399px) and (orientation: portrait) {
   .circles {
     padding: 1.0rem
   }
@@ -26,8 +26,46 @@
     font-size: 1.25em !important;
   }
 
-
+  .leftDesc{
+  background-color: white;
+  float: left;
+  padding: 10px;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  width: 68%;
+  padding-left: 10%;
+  padding-top: 0%;
+  font-size: .85em;
+  }
+  .rightDesc{
+    padding-top: 6em;
+  }
+  .prev {
+    margin-left: 5vw;
+    margin-top: 1vw;
+  }
+  .next {
+    margin-right: 5vw;
+    margin-top: 1vw;
+  }
+  .social-media{
+    width: 17vw;
+    left: 44%;
+  }
+  .hire-me{
+    right: 20%;
+  }
+  .logo{
+    width: 16vw;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  /*----- Libreo ------- */
+  #logo-libreo {
+    width: 44%;
+  }
 }
+
 
 /* --------------- LANDSCAPE ------------------ */
 @media only screen and (min-width: 600px) and (max-width: 1199px) and (orientation: landscape) {
@@ -35,7 +73,24 @@
     margin-left: 10rem;
     margin-right: 10rem;
   }
-
+  .leftDesc {
+    width:70%;
+  }
+  .rightDesc{
+    padding-top: 8em;
+  }
+  .img-mobile{
+    display: none;
+  }
+/*  html {
+    color:pink;
+  }*/
+  .prev {
+    margin-left: 7vw;
+  }
+  .next{
+    margin-right: 7vw;
+  }
 }
 
 
