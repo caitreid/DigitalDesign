@@ -82,9 +82,9 @@
   }
 
   /* ----- Libreo -----*/
-  .desktop-image{
+/*  .desktop-image{
     display: none;
-  }
+  }*/
   #logo-libreo {
     margin-top: 41vh;
     width:62%;
@@ -257,19 +257,11 @@
   h3 {
     font-size: 2em;
   }
-/*  .leftDesc{
-    width: 100%;
+  
+  /*-- Outdoorsy -- */
+  .lineh2 {
+    font-size: 1.15em;
   }
-  .rightDesc {
-    display: none;
-  }
-  .rightDescMobile{
-    display: block;
-    padding: 3% 10% 5% 12%;
-  }*/
-/*  html {
-    color:pink;
-  }*/
 }
 /* ------ Mobile Portrait MEDIUM ---- */
 @media only screen and (min-width: 400px) and (orientation:portrait){
@@ -282,9 +274,8 @@
   h3 {
     font-size: 2em;
   }
-/*  html {
-    color:pink;
-  }*/
+
+
 }
 
 /* ------ Mobile Landscape MEDIUM ------- */

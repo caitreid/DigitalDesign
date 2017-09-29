@@ -83,7 +83,7 @@
     margin-right: 10rem;
   }
   .leftDesc {
-    width:70%;
+    /*width:70%;*/
   }
   .rightDesc{
     padding-top: 8em;
@@ -91,9 +91,6 @@
   .img-mobile{
     display: none;
   }
-/*  html {
-    color:pink;
-  }*/
   .prev {
     margin-left: 7vw;
   }
