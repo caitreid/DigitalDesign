@@ -68,6 +68,11 @@
   #logo-soel {
     width: 50%;
   }
+  /* ---- IK ----- */
+  #logo-ik{
+    margin-top: 45vh;
+    width: 75vw;
+  }
 }
 
 
@@ -106,6 +111,11 @@
   }
   #logo-soel{
     width: 30%;
+  }
+  /* ---- IK -----*/
+  #logo-ik{
+    margin-top: 44vh;
+    width:45vw;
   }
 
 }
