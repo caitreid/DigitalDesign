@@ -133,14 +133,38 @@
       </div>
 
       <div class="rightDesc"> 
-        <b>Developers</b>
+        <ul>
+          <li><b>Development</b></li>
+          <li>Caitlin Reid</li>
+          <li>Andrew Zahler</li>
+          <li>Atul Singla</li>
+          <li>Claude Robotham</li>
+
+          <li><b>Technologies</b></li>
+          <li>React</li>
+          <li>Javascript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>MongoDB</li>
+          <li>Google Places API</li>
+        </ul>
+
       </div>
+
+      <div class="rightDescMobile"> 
+        <b>Development</b>
+        <p style="margin-top: .25em;">Caitlin Reid | Andrew Zahler | Atul Singla | Claude Robotham</p> 
+        <!-- <br> -->
+        <b>Technology</b>
+        <p style="margin-top: .25em;">React | Javascript | HTML | CSS | MongoDB | Google Places API </p>  
+      </div>
+
     </div>
     <!-- END TEXT DESCRIPTION -->
 
     </div>
 
-    <div class="thirdRightDiv" id="johnmuir">
+    <div class="thirdRightDiv desktop-image" id="johnmuir">
       <div class="container-JM">  
         <h3 class="lineh2">
         Keep close to Nature’s heart...<br> 
@@ -157,29 +181,70 @@
         </p>
       </div>  
     </div>
-    <div class="thirdLeftDiv">
+
+    <div class="img-mobile-div" id="johnmuir-M">
+      <div class="container-JM">  
+        <h3 class="lineh2">
+        Keep close to Nature’s heart...<br> 
+        and break clear away, <br>
+        once in awhile, <br>
+        and climb a mountain<br> 
+        or spend a week in the woods. <br>
+        Wash your spirit clean.<br>
+        </h3>
+
+        <p class="subtitle">
+          John Muir<br>
+          Conservationist
+        </p>
+      </div>  
+
+    <!-- bike -->
+    <div class="thirdLeftDiv desktop-image">
       <img id="johnmuir2" src="../images/Outdoorsy/bike1.jpg">
+    </div>
+
+    <!-- mobile bike -->
+    <div class="img-mobile-div" style="overflow-x: hidden;">
+      <img id="img-mobile-JM" src="../images/Outdoorsy/bike1.jpg">
     </div>
 
 
   <!-- WOMAN WITH PHONE MOUNTAINS -->
     <div>
-      <img class="full-width-img" src="../images/Outdoorsy/smilingHiker.jpeg">
+      <img class="full-width-img desktop-image" src="../images/Outdoorsy/smilingHiker.png">
+    </div>
+
+    <!-- mobile phone -->
+    <div class="img-mobile-div">
+      <img id="img-mobile-JM" src="../images/Outdoorsy/smilingHiker-M.png">
     </div>
 
   <!-- PHONE CLOSE UP -->
-    <div class="thirdRightDiv" id="johnmuir3">
+    <div class="thirdRightDiv desktop-image" id="johnmuir3">
     <img src="../images/Outdoorsy/backpacking.jpg" 
     style="
     height: 100%;">
     </div>
 
-    <div class="thirdLeftDiv" id="johnmuir4">
+
+    <!-- Text 2 -->
+    <div class="thirdLeftDiv desktop-image" id="johnmuir4">
       <div class="container-JM" id="container-JM2">
         <h3 class="lineh2">We make it easy to find new outdoor destinations and connect with your friends and familiy to plan new trips. </h3>
       </div>
     </div>
 
+    <div class="img-mobile-div" id="johnmuir-M" style="height: 12em;">
+      <div class="container-JM" id="">  
+        <h3 class="lineh2">
+        We make it easy to find new outdoor destinations and connect with your friends and familiy to plan new trips. 
+        </h3>
+      </div> 
+  <!--phone mobile -->
+  <div class="img-mobile-div" style="overflow-x: hidden;">
+    <img id="img-mobile-JM" src="../images/Outdoorsy/backpacking.jpg">
+  </div> 
 
 
       <!-- FOOTER -->
@@ -189,7 +254,8 @@
         <div class="prev"> 
           <a href="./Agile.html">
           <img class="prev-img" src="../images/footer/prev.png"> 
-          Previous</a>
+          <section class="arrow-text">Next</section>
+        </a>
         </div>
 
         <div class="based">
@@ -218,7 +284,8 @@
             
           <a  href="./Wildflower.html">
           <img class="next-img" src="../images/footer/next.png">
-          Next</a>
+          <section class="arrow-text">Next</section>
+        </a>
         </div>
 
       </div> 

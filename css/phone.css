@@ -33,10 +33,15 @@
   }
   .img-mobile-div{
     width:100%;
+    height:100vw;
     display: block;
+    /*overflow-right:hidden ;*/
   }
   .img-mobile{
     width: inherit;
+  }
+  #img-mobile-JM{
+    height:inherit;
   }
 
   /* ------- FOOTER Landscape --------*/
@@ -95,6 +100,32 @@
   #logo-ik{
     margin-top: 46vh;
     width:75vw;
+  }
+  /*---outdoorsy---*/
+  #logo-outdoorsy{
+    margin-top: 35vh;
+    left: 0px;
+    right: 20px;
+    width: 55vw;
+  }
+  #johnmuir-M {
+    padding-top: 2%;
+    height: 100vw;
+    display: block;
+    background-color: #29394F;
+    color:white;
+  }
+  #johnmuir-M2 {
+    height: 12em;
+  }
+  .lineh2 {
+    font-size: 1.25em;
+  }
+  .container-JM {
+    margin:9%;
+  }
+  .subtitle {
+    font-size: 1em;
   }
 }
 
