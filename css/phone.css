@@ -91,6 +91,11 @@
   #mobile-tray{
     height: 100vw;
   }
+  /* ----- IK-----*/
+  #logo-ik{
+    margin-top: 46vh;
+    width:75vw;
+  }
 }
 
 
@@ -183,6 +188,13 @@
   .prev-img {
     width: 4vw;
   }
+
+  /* ----- IK --- */
+  #logo-ik {
+    margin-top:43vh;
+    width:45vw;
+  }
+
 }
 
 /* ------ Mobile Landscape SMALL -----*/

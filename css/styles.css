@@ -306,7 +306,7 @@ ul {
 }
 
 #homepage-IK {
-  background-image: url(../images/Agile/head1a.png);
+  background-image: url(../images/Agile/head2.png);
 }
 
 #homepage-Wildflower {
@@ -340,6 +340,16 @@ ul {
 }
 
 #logo-soel {
+  margin: 0 auto;
+  display:block;
+  position: absolute;
+  margin-top: 30vh;
+  left: 0;
+  right: 0;
+  width: 25%;
+}
+
+#logo-ik {
   margin: 0 auto;
   display:block;
   position: absolute;
@@ -679,7 +689,7 @@ ul {
   margin: 0 auto;
   width: 14vw;
   position: absolute;
-  left: 43%;
+  left: 43.5%;
   margin-left: 0%;
   /*background-color: #00ff87;*/
 }

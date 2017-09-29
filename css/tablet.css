@@ -72,7 +72,7 @@
 
 
 /* --------------- LANDSCAPE ------------------ */
-@media only screen and (min-width: 600px) and (max-width: 1199px) and (orientation: landscape) {
+@media only screen and (min-width: 600px) and (max-width: 1399px) and (orientation: landscape) {
   .circles-container{
     margin-left: 10rem;
     margin-right: 10rem;
@@ -95,6 +95,19 @@
   .next{
     margin-right: 7vw;
   }
+
+  /* ----- Soel-----*/
+  .tray-container {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .tray2{
+    height: inherit;
+  }
+  #logo-soel{
+    width: 30%;
+  }
+
 }
 
 
