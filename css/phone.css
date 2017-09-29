@@ -78,7 +78,7 @@
     display: none;
   }
   .footer{
-    margin-bottom: 0px; 
+    margin-bottom: 10px; 
   }
 
   /* ----- Libreo -----*/
@@ -235,6 +235,9 @@
   }
   .prev-img {
     width: 4vw;
+  }
+  .footer{
+    margin-bottom: 10px; 
   }
 
   /* ----- IK --- */
