@@ -73,6 +73,13 @@
     margin-top: 45vh;
     width: 75vw;
   }
+  /*--- AC ---- */
+  #logo-AC {
+    width: 74vw;
+  }
+  .container {
+    margin-top: 15vh;
+  }
 }
 
 

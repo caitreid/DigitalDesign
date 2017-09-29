@@ -1,19 +1,21 @@
 <html>
-  <head>
+ <head>
   <title> Caitlin Reid | Developer / Designer </title>
-    <!--Import Google Icon Font-->
+  <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/phone.css">
     <link rel="stylesheet" href="../css/tablet.css">
     <link rel="stylesheet" href="../css/desktop.css"> 
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="../css/styles.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
+</head>
 
   <body>
     <header>
@@ -32,34 +34,21 @@
         menuWidth: 300, // Default is 240
         edge: 'right', // Choose the horizontal origin
         closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-    }
-  );
-    });
+      }
+    );
+  });
   </script>
-      <ul id="slide-out" class="side-nav">
-        <li><div class="user-view" 
-          style="background-color: #7d7849">
-          <div class="background">
-            <img src="../images/profilepic.png">
-          </div>
+
+    <ul id="slide-out" class="side-nav">
+      <li><div class="user-view">
       <a href="./index.html">
-        <img class="menu-items" 
-        style="
-          width: 90%;
-          margin-top: 50px;
-          padding-top: 50px;
-          padding-bottom: 20px;
-          margin-bottom: 20px;
-          padding-left: 10px;
-          padding-right: 10px;
-          /*margin: 0 auto;*/
-          " 
+        <img class="menu-items menu-logo"  
           src="../images/header/CR-logo-black-dd.png">
       </a>
 
     </div>
     </li>
-    <li>
+
 <!--       <h4 
         style="
         font-family: 'Circular-Medium'; 
@@ -101,7 +90,6 @@
 </header>
 <!-- MENU MENU MENU MENU -->
 
-    
   <div 
     class="homepage"
     id="homepage-art"
@@ -110,7 +98,7 @@
     overflow-y: hidden;
   ">
 
-  <!-- <img  id="logo-outdoorsy" src="../images/outdoorsy/logo.png">  -->
+  <img  id="logo-AC" src="../images/art_crit/logo.png"> 
   </div>
 
 
@@ -131,6 +119,11 @@
       <br>
         Caitlin Reid<br>
     </div>
+
+    <div class="rightDescMobile"> 
+      <b>UI/UX</b>
+      <p style="margin-top: .25em;">Caitlin Reid</p>  
+      </div>
   </div>
 
 <!-- MARINA FULL IMAGE -->
@@ -163,13 +156,14 @@
     </div> -->
 
 
-      <!-- FOOTER -->
+  <!-- FOOTER -->
     <div class="footer">
       <div class="footerLeft">
         <div class="prev"> 
-          <a href="./Wildflower.html">
+        <a href="./Wildflower.html">
           <img class="prev-img" src="../images/footer/prev.png"> 
-          Previous</a>
+          <section class="arrow-text">Previous</section>
+        </a>
         </div>
 
         <div class="based">
@@ -195,10 +189,10 @@
         </div>
 
         <div class="next">
-            
-          <a  href="./Wildfire.html">
+        <a  href="./Wildfire.html">
           <img class="next-img" src="../images/footer/next.png">
-          Next</a>
+          <section class="arrow-text">Next</section>
+        </a>
         </div>
 
       </div> 

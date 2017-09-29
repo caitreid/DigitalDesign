@@ -44,7 +44,7 @@
     height:inherit;
   }
 
-  /* ------- FOOTER Landscape --------*/
+  /* ------- FOOTER Portrait --------*/
   .prev {
     margin-left: 5vw;
   }
@@ -143,10 +143,20 @@
     margin-top: 40vh;
     width: 65vw;
   }
+  /*--- Art Crit ---*/
+  #logo-AC{
+    width: 75vw;
+  }
+  .container {
+    margin-top: 13vh;
+  }
+    html {
+    color:pink;
+  }
 }
 
 
-/* ---------- LANDSCAPE LARGE ---------- */
+/* ========= LANDSCAPE LARGE ========= */
 @media only screen and (max-height: 599px) and (orientation: landscape){
   /* INDEX */
   #portfolio-title {
@@ -279,8 +289,7 @@
 }
 /* ------ Mobile Portrait SMALL -----*/
 @media only screen and (max-width: 330px) and (orientation: portrait){
-
-.social-media {
+  .social-media {
     width: 40%;
   }
   p {
@@ -292,6 +301,9 @@
   h3 {
     font-size: 2em;
   }
+/*  .side-nav li>a {
+    font-size: 1.15em;
+  }*/
   
   /*-- Outdoorsy -- */
   .lineh2 {

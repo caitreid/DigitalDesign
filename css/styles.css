@@ -316,7 +316,7 @@ ul {
 }
 
 #homepage-art {
-  background-image: url(../images/art_crit/AC-1a.png);
+  background-image: url(../images/art_crit/marble.png);
 }
 
 #homepage-IK {
@@ -360,6 +360,16 @@ ul {
   left: 0;
   right: 0;
   width: 25%;
+}
+
+#logo-AC {
+  margin: 0 auto;
+  display:block;
+  position: absolute;
+  margin-top: 46vh;
+  left: 0;
+  right: 0;
+  width: 48%;
 }
 
 #logo-ik {
