@@ -98,17 +98,41 @@
   .button{
     font-size: .85em !important;
   }
+  /*---wildfire---*/
+  #wildfire-logo{
+  width: 60%
+  }
+  #desc-wildfire{
+    padding-bottom: 0;
+    height: auto;
+  }
+  .red-p{
+    font-size: 1.25em;
+  }
+  .red-h3{
+    font-size: 1.75em;
+  }
+  #googleTwitter{
+    margin-top: 5vh;
+    margin-left: 5vw;
+    width: -webkit-fill-available;
+
+  }
+  .wildfire-red-div{
+    /*height:auto;*/
+  }
+
 }
 
 
 /* --------------- LANDSCAPE ------------------ */
-@media only screen and (min-width: 600px) and (max-width: 1399px) and (orientation: landscape) {
+@media only screen and (min-width: 750px) and (max-width: 1399px) and (orientation: landscape) {
   .circles-container{
     margin-left: 10rem;
     margin-right: 10rem;
   }
   .leftDesc {
-    /*width:70%;*/
+    width:70%;
   }
   .rightDesc{
     padding-top: 8em;
@@ -146,9 +170,20 @@
   .material-icons {
     margin: 1vw;
   }
+  /*---wildfire--*/
+  #googleTwitter{
+    margin-top: -2vh;
+    margin-left: 3vw;
+  }
+  #trending {
+    margin-top: 21%;
+  }
+  .red-p {
+    font-size: 1.35em;
+  }
 }
 
-@media only screen and (min-height: 600px) and (max-height: 900px) and (orientation:landscape){
+@media only screen and (min-height: 650px) and (max-height: 900px) and (orientation:landscape){
     /*--- about----*/
   .about-div{
     padding-left: 15vh;

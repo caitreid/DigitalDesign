@@ -408,13 +408,21 @@ ul {
   display: block;
 }
 
+.leftdescwildfire{
+  width: 68%;
+}
+
 .img-wildfire {
   width:80vw;
   margin-left:10vw;
   margin-right: 10vw;
   margin-top: 10vw;
-  margin: auto;
+  /*margin: auto;*/
   display: block;
+
+  margin-bottom: 7vw;
+  float: left;
+  margin-left: 10vw;
 }
 
 .container {
@@ -427,10 +435,6 @@ ul {
   margin-bottom: 10vh;
 }
 
-.container-wildfire {
-  /*margin-top: 20vh;*/
-  margin-bottom: 10vh;
-}
 
 .tray-container {
   height: 100vw;
@@ -508,7 +512,16 @@ ul {
 
 .wildfire-red-div {
   background-color:#f5eae9;
-  height:500px;
+  margin-bottom: 10vw;
+  height: inherit;
+      height: inherit;
+}
+
+.container-wildfire{
+  height: 30rem;
+  margin: 0;
+  float: left;
+  margin-bottom: 10vh;
 }
 
 .videowrapper {
@@ -541,7 +554,7 @@ ul {
 }
 
 .red-h3{
-  font-size: 40px;
+  font-size: 1.5em;
   color:#8F2E22;
 }
 
@@ -552,24 +565,24 @@ ul {
 
 #googleTwitter{
   max-height: 500px;
-  margin-left: ;
   padding:2vw;
   margin: 0 auto;
   display: block;
   float: left;
   margin-top: 8vh;
   margin-left: 10vw;
+  float: right;
 }
 
 .thirdRightDiv{
-  height: 600px;
+  /*height: 600px;*/
   width: 50vw;
   float:left;
 }
 
 
 .thirdLeftDiv{
-  height: 600px;
+  /*height: 600px;*/
   width: 50vw;
   overflow-x: hidden;
   float:right;
@@ -626,7 +639,6 @@ ul {
 
 #trending {
   width: 68%;
-  font-family: "Circular-Book";
   margin-top: 23%;
   margin-left: 15px;
 }

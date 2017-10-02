@@ -37,8 +37,15 @@
     display: block;
     /*overflow-right:hidden ;*/
   }
+  .img-mobile-wildfire{
+    height: auto;
+    background-color: white;
+    padding: 1em;
+    padding-bottom: 2em;
+  }
   .img-mobile{
     width: inherit;
+    float: left;
   }
   #img-mobile-JM{
     height:inherit;
@@ -49,6 +56,7 @@
   .hamburger{
     width: 4.5vw;
   }
+
 
   /* ------- FOOTER Portrait --------*/
   .prev {
@@ -86,6 +94,7 @@
   .footer{
     margin-bottom: 10px; 
   }
+
 
   /* ----- Libreo -----*/
   #logo-libreo {
@@ -169,6 +178,29 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+  /*---wildfire---*/
+  .wildfire-red-div{
+    width:100%;
+    height: auto;
+    margin-bottom: 6vw;
+  }
+  #googleTwitter {
+    width: inherit;
+    margin: 2em auto;
+  }
+  .red-p{
+    font-size: 1.25em;
+  }
+  .red-h3{
+    font-size: 2em;
+  }
+  #trending{
+    margin: 10%;
+  }
+  #wildfire-logo{
+    margin-top: 40vh;
+    width:75vw;
+  }
 }
 
 
@@ -202,7 +234,9 @@
   }
 
   /* ---------- PROJECT PAGES ----------*/
-
+  .desktop-image{
+    display: none;
+  }
   .logo {
     width: 26vh;
     margin: 22px 20px 20px 20px;
@@ -303,7 +337,27 @@
   .icon{
     width:20%;
   }
-
+  /*---wildfire---*/
+  #googleTwitter{
+    width: inherit;
+    margin-left: 1rem;
+    height: 100%;
+    margin-top: 0;
+  }
+  .red-h3{
+    font-size: 1.5em;
+  }
+  .red-p{
+    font-size: 1em;
+  }
+  .wildfire-red-div{
+    height: 100%;
+    margin-bottom: 3vw;
+  }
+  .container-wildfire{
+    height: 100vh;
+    margin-bottom: 5vh;
+  }
 }
 
 /* ------ Mobile Landscape SMALL -----*/
@@ -322,6 +376,23 @@
   /*---about---*/
   .about-div {
     margin-top: 10vh;
+  }
+  /*---wildfire--*/
+  .red-p {
+    font-size: 0.8em;
+  }
+  #googleTwitter{
+    padding: 2em;
+  }
+  .red-p{
+    font-size: 1em;
+  }
+  #trending {
+    width: 74%;
+    margin-top: 16%;
+  }
+  .container-wildfire{
+    margin-bottom: 5vh;
   }
 }
 /* ------ Mobile Portrait SMALL -----*/
@@ -356,6 +427,9 @@
   .about-text {
     font-size: 1.15em;
   }
+  .red-h3 {
+    font-size: 1.25em;
+  }
 }
 /* ------ Mobile Portrait MEDIUM ---- */
 @media only screen and (min-width: 400px) and (max-width: 600px) (orientation:portrait){
@@ -368,7 +442,6 @@
   h3 {
     font-size: 2em;
   }
-
 }
 
 /* ------ Mobile Landscape MEDIUM ------- */
@@ -387,6 +460,13 @@
   /*-- about --*/
   .about-text{
     font-size: 1em;
+  }
+  /*--- wildfire--*/
+  #trending{
+    margin-top: 30%;
+  }
+  #googleTwitter{
+    padding: 3rem;
   }
 }
 
