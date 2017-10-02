@@ -1,7 +1,7 @@
 /* TABLET media queries */
 
 /* --------------- PORTRAIT ------------------ */
-@media only screen and (min-width: 600px) and (max-width: 1399px) and (orientation: portrait) {
+@media only screen and (min-width: 750px) and (max-width: 1399px) and (orientation: portrait) {
   .circles {
     padding: 1.0rem
   }
@@ -149,7 +149,7 @@
 
   /* ----- Soel-----*/
   .tray-container {
-    height: 100vh;
+    height: 120vh;
     overflow: hidden;
   }
   .tray2{

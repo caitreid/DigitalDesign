@@ -436,7 +436,7 @@ ul {
 
 
 .tray-container {
-  height: 100vw;
+  height: 120vh;
   overflow: hidden;
 }
 
@@ -644,14 +644,14 @@ ul {
 
 .tray1 {
   width: 78vw;
-  height: 930;
+  height: inherit;
   float: left;
 }
 
 .tray2 {
   width: 22vw;
   float: right;
-  height: 930px;
+  height: inherit;
   overflow-x: hidden;
 }
 
