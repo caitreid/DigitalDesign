@@ -56,6 +56,14 @@
   .hamburger{
     width: 4.5vw;
   }
+  .mobile-text-block{
+    height: inherit;
+    color:white;
+    text-align: center;
+    margin:0 auto;
+    padding: 6.5rem;
+    font-size: 2em;
+  }
 
 
   /* ------- FOOTER Portrait --------*/
@@ -100,6 +108,9 @@
   #logo-libreo {
     margin-top: 41vh;
     width:62%;
+  }
+  #follow{
+    background-color: purple;
   }
   /* ---- SOEL ---- */
   #logo-soel {
