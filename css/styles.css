@@ -323,16 +323,15 @@ ul {
   background-image: url(../images/libreo/head0b.png);
 }
 
-#homepage-art {
-  background-image: url(../images/art_crit/marble.png);
-}
-
 #homepage-IK {
   background-image: url(../images/Agile/head2.png);
 }
 
 #homepage-Wildflower {
   background-image: url(../images/wildflower/head5.png);
+}
+#homepage-art {
+  background-image: url(../images/art_crit/marble.png);
 }
 
 #homepage-Wildfire {
