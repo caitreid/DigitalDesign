@@ -240,11 +240,11 @@ ul {
   width:100%;
 }
 
-/*.half-width-img {
+.half-width-img {
   width:55vw;
   margin: auto;
   display: block;
-}*/
+}
 
 .user-view {
   margin-bottom: 20px;
@@ -445,6 +445,7 @@ ul {
 .container-ik {
   margin-top: 10vh;
   margin-bottom: 10vh;
+  width:100%;
 }
 
 

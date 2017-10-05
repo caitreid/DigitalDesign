@@ -62,7 +62,7 @@
     color:white;
     text-align: center;
     margin:0 auto;
-    padding: 6.5rem;
+    padding: 7.5rem;
     font-size: 2em;
   }
 
@@ -111,7 +111,7 @@
     width:62%;
   }
   #follow{
-    background-color: purple;
+    background-color: #3b102c;
   }
   /* ---- SOEL ---- */
   #logo-soel {
@@ -124,6 +124,9 @@
   #logo-ik{
     margin-top: 46vh;
     width:75vw;
+  }
+  #homepage-IK {
+    background-image: url(../images/Agile/head-m.jpg);
   }
   /*---outdoorsy---*/
   #logo-outdoorsy{
