@@ -40,7 +40,8 @@
   .img-mobile-wildfire{
     height: auto;
     background-color: white;
-    padding: 1em;
+    /*padding: 1em;*/
+    display: block;
     padding-bottom: 2em;
   }
   .img-mobile{
@@ -173,7 +174,7 @@
   #logo-AC{
     width: 75vw;
   }
-  .container {
+  .container-AC {
     margin-top: 13vh;
   }
   /*-- about ---*/
@@ -190,20 +191,18 @@
     margin-bottom: 1rem;
   }
   /*---wildfire---*/
-  .wildfire-red-div{
-    width:100%;
-    height: auto;
-    margin-bottom: 6vw;
+  .mapping{
+    margin-top: 1rem;
+    margin-bottom:1rem;
   }
   #googleTwitter {
-    width: inherit;
-    margin: 2em auto;
+    margin-left: 2em;
   }
   .red-p{
-    font-size: 1.25em;
+    text-align: center;
   }
   .red-h3{
-    font-size: 2em;
+    text-align: center;
   }
   #trending{
     margin: 10%;
@@ -277,6 +276,9 @@
     display: block;
     padding: 3% 10% 5% 12%;
   }
+  .rightDescMobile-w{
+    padding:0px;
+  }
   
 
   /*-------- FOOTER Mobile Landscape BIG -------- */
@@ -349,22 +351,16 @@
     width:20%;
   }
   /*---wildfire---*/
-  #googleTwitter{
-    width: inherit;
-    margin-left: 1rem;
-    height: 100%;
-    margin-top: 0;
-  }
   .red-h3{
     font-size: 1.5em;
   }
   .red-p{
     font-size: 1em;
   }
-  .wildfire-red-div{
+/*  .wildfire-red-div{
     height: 100%;
     margin-bottom: 3vw;
-  }
+  }*/
   .container-wildfire{
     height: 100vh;
     margin-bottom: 5vh;
@@ -389,12 +385,12 @@
     margin-top: 10vh;
   }
   /*---wildfire--*/
-  .red-p {
+/*  .red-p {
     font-size: 0.8em;
-  }
-  #googleTwitter{
+  }*/
+/*  #googleTwitter{
     padding: 2em;
-  }
+  }*/
   .red-p{
     font-size: 1em;
   }
@@ -438,9 +434,9 @@
   .about-text {
     font-size: 1.15em;
   }
-  .red-h3 {
+ /* .red-h3 {
     font-size: 1.25em;
-  }
+  }*/
 }
 /* ------ Mobile Portrait MEDIUM ---- */
 @media only screen and (min-width: 400px) and (max-width: 600px) (orientation:portrait){
@@ -476,9 +472,9 @@
   #trending{
     margin-top: 30%;
   }
-  #googleTwitter{
+/*  #googleTwitter{
     padding: 3rem;
-  }
+  }*/
 }
 
 /* ---------- Libreo LANDSCAPE ---------- */

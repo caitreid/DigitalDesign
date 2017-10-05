@@ -173,6 +173,11 @@ ul {
   padding-top: 5vh;
 }
 
+#title-W {
+  padding-left: .5rem;
+  margin-bottom: .1em;
+  margin-top: 2em;
+}
 
 #wildfire-top{
   margin-left: 50px;
@@ -235,11 +240,11 @@ ul {
   width:100%;
 }
 
-.half-width-img {
+/*.half-width-img {
   width:55vw;
   margin: auto;
   display: block;
-}
+}*/
 
 .user-view {
   margin-bottom: 20px;
@@ -421,10 +426,18 @@ ul {
 
   margin-bottom: 7vw;
   float: left;
-  margin-left: 10vw;
 }
 
-.container {
+.img-wildfire-m{
+  width:80vw;
+  margin-left:10vw;
+  margin-right: 10vw;
+  margin-top: 10vw;
+  /*margin: auto;*/
+  display: block;
+}
+
+.container-AC {
   margin-top:20vh;
   margin-bottom: 10vh;
 }
@@ -457,6 +470,10 @@ ul {
   padding-top: 95px;
 }
 
+.rightDescMobile-w{
+  display:none;
+}
+
 
 
 .desktop-image{
@@ -465,7 +482,9 @@ ul {
 .img-mobile-div{
   display:none;
 }
-
+.img-mobile-wildfire{
+  display: none;
+}
 
 
 .about-div{
@@ -511,9 +530,9 @@ ul {
 
 .wildfire-red-div {
   background-color:#f5eae9;
-  margin-bottom: 10vw;
-  height: inherit;
-      height: inherit;
+  /*margin-bottom: 10vw;*/
+/*  height: inherit;
+      height: inherit;*/
 }
 
 .container-wildfire{
@@ -553,24 +572,23 @@ ul {
 }
 
 .red-h3{
-  font-size: 1.5em;
+  font-size: 2em;
   color:#8F2E22;
 }
 
 .red-p {
-  font-size: 27px;
+  font-size: 1.25em;
   color:#8F2E22;
 }
 
+.mapping{
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+
 #googleTwitter{
-  max-height: 500px;
-  padding:2vw;
-  margin: 0 auto;
-  display: block;
-  float: left;
-  margin-top: 8vh;
-  margin-left: 10vw;
-  float: right;
+  margin: 2rem;
+  margin-left: 3rem;
 }
 
 .thirdRightDiv{
