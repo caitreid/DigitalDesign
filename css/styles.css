@@ -54,12 +54,13 @@ ul {
 
 .lineh2 {
   line-height: 1.4;
+  font-size: 1.7em;
 }
 
 .subtitle {
   font-family: "Circular-Book";
   font-style: italic;
-  font-size: 24px;
+  font-size: 1em;
 }
 
 .logo {
@@ -258,7 +259,7 @@ ul {
 }
 
 .product-img-W{
-  
+
 }
 
 #wildfire-logo {
@@ -614,10 +615,17 @@ ul {
   float:right;
 }
 
+.bike{
+  padding:0px;
+  height: 45vw;
+  overflow-y: hidden;
+}
+
 #johnmuir {
   background-color: #29394F;
   /*padding-top: 25%;*/
   color:white;
+  height: 45vw;
 }
 
 #johnmuir2 {

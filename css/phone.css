@@ -148,6 +148,14 @@
   #homepage-outdoorsy {
     background-image: url(../images/Outdoorsy/head_600.jpg);
   }
+
+  .bike{
+    height:100vw;
+    overflow-y: hidden;
+  }
+  #johnmuir{
+    height: 118vw;
+  }
   #johnmuir-M {
     padding-top: 2%;
     height: 100vw;

@@ -199,7 +199,7 @@
 }
 #title-w{
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 1.5rem;
 }
 }
 
@@ -208,6 +208,10 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 3rem !important;
+  }
+
+  .lineh2{
+    font-size: 1.4em;
   }
 }
 
