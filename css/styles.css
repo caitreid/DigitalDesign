@@ -257,6 +257,10 @@ ul {
   height: 100%;
 }
 
+.product-img-W{
+  
+}
+
 #wildfire-logo {
   margin: 0 auto;
   display:block;
@@ -351,6 +355,13 @@ ul {
   bottom: 0;
   width:45vh;
   margin-top: 35vh;
+}
+
+.div-PP{
+  width: 100%; 
+  background-color: #F6AD99; 
+  height: 45vh; 
+  float:left;
 }
 
 #expand_more {
