@@ -123,6 +123,9 @@
   #mobile-tray{
     height: 100vw;
   }
+  #homepage-soel {
+    background-image: url(../images/soel/head-mobile.jpg);
+  }
   /* ----- IK-----*/
   #logo-ik{
     margin-top: 46vh;
@@ -137,6 +140,9 @@
     left: 0px;
     right: 20px;
     width: 55vw;
+  }
+  #homepage-outdoorsy {
+    background-image: url(../images/Outdoorsy/head_600.jpg);
   }
   #johnmuir-M {
     padding-top: 2%;
