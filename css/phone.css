@@ -113,6 +113,9 @@
   #follow{
     background-color: #3b102c;
   }
+  #homepage-libreo {
+    background-image: url(../images/libreo/head-m.jpg);
+  }
   /* ---- SOEL ---- */
   #logo-soel {
     width: 75%;
