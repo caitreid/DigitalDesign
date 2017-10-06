@@ -84,7 +84,7 @@
     margin: 0 auto;
     display: block;
     position: absolute;
-    right: 0;
+    right: -3px;
     left: 0;
   }
   .hire-me {
@@ -163,7 +163,7 @@
   }
   .container-JM {
     margin:9%;
-    margin-top: 20%;
+    margin-top: 26%;
   }
   .subtitle {
     font-size: 1em;
