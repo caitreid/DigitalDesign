@@ -198,6 +198,10 @@ ul {
   /*height:100%;*/
 }
 
+#portfoliotop-about{
+  height: 100%; 
+  background-color: white;
+}
 
 #portfolio-wildfire {
   width: 100%;
@@ -498,12 +502,13 @@ ul {
 
 
 .about-div{
-  width: 50vw;
+  width: 49%;
   float: right;
   padding: 20px;
   margin-top: 24vh;
   padding-left: 16vh;
   padding-right: 16vh;
+  /*background-color: orange;*/
 }
 
 .about-text{

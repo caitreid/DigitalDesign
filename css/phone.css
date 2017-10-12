@@ -218,15 +218,20 @@
   /*-- about ---*/
   .about-div{
     font-size: 1em;
-  }
-  .profilepic{
-    height: inherit;
-  }
-  .about-div{
-    width:100vw;
+    /*background-color: pink;*/
+
+    float: none;
+    width:100%;
     padding: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    /*padding: 20px;*/
+    /*margin-top: 24vh;*/
+    /*padding-left: 16vh;*/
+    /*padding-right: 16vh;*/
+  }
+  .profilepic{
+    height: inherit;
   }
   /*---wildfire---*/
   .mapping{

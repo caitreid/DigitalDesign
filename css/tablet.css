@@ -1,4 +1,24 @@
 /* TABLET media queries */
+@media only screen and (min-width: 600px) and (max-width: 915px) {
+  .about-div{
+    width: 48%;
+    font-size: .9em;
+    padding:0;
+      /*padding: 20px;*/
+    margin-top: 24vh;
+    padding-left: 10vh;
+    padding-right: 1vh;
+
+    /*background-color: yellow;*/
+  }
+  #social-media-about{
+    /*background-color: teal;*/
+    width:50%;
+  }
+  .icon{
+    width:20%;
+  }
+}
 
 /* --------------- PORTRAIT ------------------ */
 @media only screen and (min-width: 750px) and (max-width: 1399px) and (orientation: portrait) {
@@ -82,12 +102,15 @@
   }
   /*----about---*/
   .about-div{
+    font-size: .8em;
     margin-top: 31vh;
     padding-left: 10vw;
     padding-right: 10vw;
+    /*background-color: red;*/
   }
   #social-media-about{
     width: 18vw;
+    background-color: red;
   }
   .logo{
     padding: .75rem;
