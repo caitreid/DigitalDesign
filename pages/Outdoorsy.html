@@ -23,55 +23,68 @@
   </div>
 
 
-  <!-- MENU MENU MENU -->
+ <!-- MENU MENU MENU -->
   <script type="text/javascript">
     $(document).ready(function(){
-
       $('.button-collapse').sideNav({
         menuWidth: 300, // Default is 240
         edge: 'right', // Choose the horizontal origin
         closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
     }
   );
-    });
+});
   </script>
-
-    <ul id="slide-out" class="side-nav">
-      <li><div class="user-view">
+      <ul id="slide-out" class="side-nav">
+        <li><div class="user-view" 
+          style="background-color: #7d7849">
+          <div class="background">
+            <!-- <img src="./images/profilepic.png"> -->
+          </div>
       <a href="../index.html">
-        <img class="menu-items menu-logo"  
+        <img class="menu-items" 
+        style="
+          width: 90%;
+          margin-top: 50px;
+          padding-top: 50px;
+          padding-bottom: 20px;
+          margin-bottom: 20px;
+          padding-left: 10px;
+          padding-right: 10px;
+          /*margin: 0 auto;*/
+          " 
           src="../images/header/CR-logo-black-dd.png">
       </a>
 
     </div>
     </li>
-
+    <li>
+<!--       <h4 
+        style="
+        font-family: 'Circular-Medium'; 
+        font-size: 26px;
+        margin-left: 35px;">
+      Projects</h4> -->
+    </li>
     <!-- <li><div class="divider"></div></li>  -->
   <div>
 
-    <li><a class="waves-effect menu-items" href="./Libreo.html">Libreo</a></li>
-    <li><a class="waves-effect menu-items" href="./Soel.html">Soel Farm</a></li> 
-    <li><a class="waves-effect menu-items" href="./Agile.html">IK Solutions</a></li>
-    <li><a class="waves-effect menu-items" href="./Outdoorsy.html">Outdoorsy</a></li>
-    <li><a class="waves-effect menu-items" href="./Wildflower.html">The Wildflower Collection</a></li>
-    <li><a class="waves-effect menu-items" href="./ArtCriticism.html">Art + Criticism</a></li>
-    <li><a class="waves-effect menu-items" href="./Wildfire.html">Wildfire</a></li>
-    <li>
-
+  <li><a class="waves-effect menu-items" href="../pages/Libreo.html">Libreo</a></li>
+  <li><a class="waves-effect menu-items" href="../pages/Soel.html">Soel Farm</a></li> 
+  <li><a class="waves-effect menu-items" href="../pages/Agile.html">IK Solutions</a></li>
+  <li><a class="waves-effect menu-items" href="../pages/Outdoorsy.html">Outdoorsy</a></li>
+  <li><a class="waves-effect menu-items" href="../pages/Wildflower.html">The Wildflower Collection</a></li>
+  <li><a class="waves-effect menu-items" href="../pages/ArtCriticism.html">Art + Criticism</a></li>
+  <li><a class="waves-effect menu-items" href="../pages/Wildfire.html">Wildfire</a></li>
+  <li>
     
   </div>
 
   </ul>
   
-  <div
-    style="
-      float:right; 
-      margin: 20px;
-      position: fixed;
-      right: 0;">
+  <div class="hamburger">
     <a href="#" data-activates="slide-out" class="button-collapse">
       <i 
-      style="color: white;"
+      style="color: white; font-size: 1.75em; margin: .25em;"
       class="material-icons">menu</i>
     </a>
   </div>
