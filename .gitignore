@@ -1,2 +1,3 @@
 # Ignore this CSS file for production build
 css/materialize.css
+*.idea/
