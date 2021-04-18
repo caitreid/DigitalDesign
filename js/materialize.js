@@ -1,5 +1,5 @@
 /*!
- * Materialize v0.100.2 (http://materializecss.com)
+ * Materialize v0.100.2 (https://materializecss.com)
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
@@ -18,7 +18,7 @@ if (typeof jQuery === 'undefined') {
   }
 }
 ; /*
-  * jQuery Easing v1.4.0 - http://gsgd.co.uk/sandbox/jquery/easing/
+  * jQuery Easing v1.4.0 - https://gsgd.co.uk/sandbox/jquery/easing/
   * Open source under the BSD License.
   * Copyright © 2008 George McGinley Smith
   * All rights reserved.
@@ -636,7 +636,7 @@ jQuery.Velocity ? console.log("Velocity is already loaded. You may be needlessly
                 a = e.position === L.lastPosition && e.myParent === L.lastParent,
                 n = e.fontSize === L.lastFontSize;L.lastParent = e.myParent, L.lastPosition = e.position, L.lastFontSize = e.fontSize;var s = 100,
                 l = {};if (n && a) l.emToPx = L.lastEmToPx, l.percentToPxWidth = L.lastPercentToPxWidth, l.percentToPxHeight = L.lastPercentToPxHeight;else {
-              var u = i(o).isSVG ? r.createElementNS("http://www.w3.org/2000/svg", "rect") : r.createElement("div");b.init(u), e.myParent.appendChild(u), f.each(["overflow", "overflowX", "overflowY"], function (e, t) {
+              var u = i(o).isSVG ? r.createElementNS("https://www.w3.org/2000/svg", "rect") : r.createElement("div");b.init(u), e.myParent.appendChild(u), f.each(["overflow", "overflowX", "overflowY"], function (e, t) {
                 b.CSS.setPropertyValue(u, t, "hidden");
               }), b.CSS.setPropertyValue(u, "position", e.position), b.CSS.setPropertyValue(u, "fontSize", e.fontSize), b.CSS.setPropertyValue(u, "boxSizing", "content-box"), f.each(["minWidth", "maxWidth", "width", "minHeight", "maxHeight", "height"], function (e, t) {
                 b.CSS.setPropertyValue(u, t, s + "%");
@@ -3035,7 +3035,7 @@ if (Vel) {
 })(jQuery);
 ; /*!
   * Waves v0.6.4
-  * http://fian.my.id/Waves
+  * https://fian.my.id/Waves
   *
   * Copyright 2014 Alfiana E. Sibuea and other contributors
   * Released under the MIT license
@@ -6319,8 +6319,8 @@ if (Vel) {
 })(jQuery);
 ; /*!
   * pickadate.js v3.5.0, 2014/04/13
-  * By Amsul, http://amsul.ca
-  * Hosted on http://amsul.github.io/pickadate.js
+  * By Amsul, https://amsul.ca
+  * Hosted on https://amsul.github.io/pickadate.js
   * Licensed under MIT
   */
 
@@ -6967,7 +6967,7 @@ if (Vel) {
 
 
         // * For IE, non-focusable elements can be active elements as well
-        //   (http://stackoverflow.com/a/2684561).
+        //   (https://stackoverflow.com/a/2684561).
         activeElement = getActiveElement();
         activeElement = activeElement && (activeElement.type || activeElement.href) && activeElement;
 
@@ -7353,7 +7353,7 @@ if (Vel) {
 });
 ; /*!
   * Date picker for pickadate.js v3.5.0
-  * http://amsul.github.io/pickadate.js/date.htm
+  * https://amsul.github.io/pickadate.js/date.htm
   */
 
 (function (factory) {
@@ -8583,7 +8583,7 @@ if (Vel) {
   Picker.extend('pickadate', DatePicker);
 });
 ; /*!
-  * ClockPicker v0.0.7 (http://weareoutman.github.io/clockpicker/)
+  * ClockPicker v0.0.7 (https://weareoutman.github.io/clockpicker/)
   * Copyright 2014 Wang Shenwei.
   * Licensed under MIT (https://github.com/weareoutman/clockpicker/blob/gh-pages/LICENSE)
   *
@@ -8596,7 +8596,7 @@ if (Vel) {
       $doc = $(document);
 
   // Can I use inline svg ?
-  var svgNS = 'http://www.w3.org/2000/svg',
+  var svgNS = 'https://www.w3.org/2000/svg',
       svgSupported = 'SVGAngle' in window && function () {
     var supported,
         el = document.createElement('div');
