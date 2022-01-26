@@ -218,17 +218,11 @@
   /*-- about ---*/
   .about-div{
     font-size: 1em;
-    /*background-color: pink;*/
-
     float: none;
     width:100%;
     padding: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    /*padding: 20px;*/
-    /*margin-top: 24vh;*/
-    /*padding-left: 16vh;*/
-    /*padding-right: 16vh;*/
   }
   .profilepic{
     height: inherit;
@@ -403,10 +397,6 @@
   .red-p{
     font-size: 1em;
   }
-/*  .wildfire-red-div{
-    height: 100%;
-    margin-bottom: 3vw;
-  }*/
   .container-wildfire{
     height: 100vh;
     margin-bottom: 5vh;
@@ -431,12 +421,6 @@
     margin-top: 10vh;
   }
   /*---wildfire--*/
-/*  .red-p {
-    font-size: 0.8em;
-  }*/
-/*  #googleTwitter{
-    padding: 2em;
-  }*/
   .red-p{
     font-size: 1em;
   }
@@ -510,22 +494,9 @@
     margin-bottom: 1em;
     padding-bottom: .25em;
   }
-  /*-- about --*/
-  .about-text{
-    font-size: 1em;
-  }
   /*--- wildfire--*/
   #trending{
     margin-top: 30%;
   }
-/*  #googleTwitter{
-    padding: 3rem;
-  }*/
-}
-
-/* ---------- Libreo LANDSCAPE ---------- */
-@media only screen and (max-height: 599px) and (orientation: landscape){
-
-
 }
 
