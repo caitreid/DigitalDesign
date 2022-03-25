@@ -608,14 +608,14 @@ ul {
 
 .thirdRightDiv{
   /*height: 600px;*/
-  width: 50vw;
+  width: 49vw;
   float:left;
 }
 
 
 .thirdLeftDiv{
   /*height: 600px;*/
-  width: 50vw;
+  width: 49vw;
   overflow-x: hidden;
   float:right;
 }
@@ -683,7 +683,7 @@ ul {
 }
 
 .tray1 {
-  width: 78vw;
+  width: 100%;
   height: inherit;
   float: left;
 }
