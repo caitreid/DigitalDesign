@@ -825,7 +825,9 @@ ul {
   width: 48%;
   padding: 0.5rem;  
 }
-
+.circles:hover{
+  cursor:pointer;
+}
 #portfolio-footer {
   margin: auto;
   float: none;
