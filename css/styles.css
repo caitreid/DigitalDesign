@@ -757,7 +757,7 @@ ul {
   width: 100%;
   float: left;
   margin: 10px;
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
   height: auto; 
 }
 
@@ -888,4 +888,19 @@ ul {
 
 .part2-container {
   height: 100vh; 
+}
+.button-collapse .material-icons {
+  color: white; 
+  font-size: 1.75em;
+  margin: .25em;
+}
+
+.wildflower__video {
+  background-color: #e7ddef;
+  padding: 8rem;
+  display: flex;
+  vertical-align: middle;
+}
+.wildflower__video video {
+  width: 100%;
 }
