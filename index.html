@@ -1,23 +1,17 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Caitlin Reid | Developer / Designer </title>
-      <link rel="stylesheet" href="./css/styles.css">
-      <link 
-        rel="stylesheet"
-        media="screen and (max-width: 750px)"
-        href="./css/phone.css"
-      >
-      <link 
-        rel="stylesheet"
-        media="screen and (min-width: 750px)" 
-        href="./css/tablet.css">
-      <link rel="stylesheet" href="./css/desktop.css">
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link type="text/css" rel="stylesheet" href="./css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" media="screen and (max-width: 750px)" href="./css/phone.css">
+    <link rel="stylesheet" media="screen and (min-width: 750px)" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="./css/materialize.min.css"  media="screen,projection"/>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JSG03CNWSD"></script>
@@ -25,69 +19,28 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-JSG03CNWSD');
     </script>
   </head>
   <body>
     <header>
-<!-- MENU MENU MENU -->
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('.button-collapse').sideNav({
-        menuWidth: 300, // Default is 240
-        edge: 'right', // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-    }
-  );
-});
-  </script>
-      <ul id="slide-out" class="side-nav">
-        <li><div class="user-view" 
-          style="background-color: #7d7849">
-          <div class="background">
-            <!-- <img src="./images/profilepic.png"> -->
-          </div>
-      <a href="./index">
-        <img class="menu-items" 
-        style="
-          width: 90%;
-          margin-top: 50px;
-          padding-top: 50px;
-          padding-bottom: 20px;
-          margin-bottom: 20px;
-          padding-left: 10px;
-          padding-right: 10px;
-          /*margin: 0 auto;*/
-          " 
-          src="./images/header/CR-logo-black-dd.png">
-      </a>
-
+      <div id="slide-out" class="side-nav">
+        <div class="user-view" style="background-color: #7d7849">
+        <div class="background"></div>
+        <a href="./index"> <img class="menu-items" id="logo" src="./images/header/CR-logo-black-dd.png"></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a class="waves-effect menu-items" href="./pages/Libreo">Libreo</a></li>
+          <li><a class="waves-effect menu-items" href="./pages/Soel">Soel Farm</a></li>
+          <li><a class="waves-effect menu-items" href="./pages/Agile">IK Solutions</a></li>
+          <li><a class="waves-effect menu-items" href="./pages/Outdoorsy">Outdoorsy</a></li>
+          <li><a class="waves-effect menu-items" href="./pages/Wildflower">The Wildflower Collection</a></li>
+          <li><a class="waves-effect menu-items" href="./pages/ArtCriticism">Art + Criticism</a></li>
+          <li><a class="waves-effect menu-items" href="./pages/Wildfire">Wildfire</a></li>
+        </ul>
+      </div>
     </div>
-    </li>
-    <li>
-<!--       <h4 
-        style="
-        font-family: 'Circular-Medium'; 
-        font-size: 26px;
-        margin-left: 35px;">
-      Projects</h4> -->
-    </li>
-    <!-- <li><div class="divider"></div></li>  -->
-  <div>
-
-  <li><a class="waves-effect menu-items" href="./pages/Libreo">Libreo</a></li>
-  <li><a class="waves-effect menu-items" href="./pages/Soel">Soel Farm</a></li>
-  <li><a class="waves-effect menu-items" href="./pages/Agile">IK Solutions</a></li>
-  <li><a class="waves-effect menu-items" href="./pages/Outdoorsy">Outdoorsy</a></li>
-  <li><a class="waves-effect menu-items" href="./pages/Wildflower">The Wildflower Collection</a></li>
-  <li><a class="waves-effect menu-items" href="./pages/ArtCriticism">Art + Criticism</a></li>
-  <li><a class="waves-effect menu-items" href="./pages/Wildfire">Wildfire</a></li>
-  <li>
-    
-  </div>
-
-  </ul>
   
   <div class="hamburger">
     <a href="#" data-activates="slide-out" class="button-collapse">
@@ -99,24 +52,12 @@
     </div>
   </div>
 </header>
-<!-- MENU MENU MENU MENU -->
-    </header>
+
     
-  <div 
-    id="homepage"
-    style="    
-      height: 100vh;
-      overflow-y: hidden;
-      /*position: relative;*/
-  ">
-  <div 
-    style="width: 100%">
-
-  </div>
-
-  <br>
-  <br>
-        
+  <div id="homepage" >
+    <div  style="width: 100%"> </div>
+    <br>
+    <br>
     <div class="index-container">
       <img  id="orange" src="./images/index/index3.png">
       <i class="material-icons" id="expand_more">
@@ -124,61 +65,45 @@
     </div>
   </div>
 
-
-
-
-<!-- PART 2 -->
-  <div class="part2-container"
-  style="height: 100vh; background-color:;">
-
-  <div id="portfolio-title-container">
-    <h3 id="portfolio-title">
-      Portfolio
-    </h3>
+  <div class="part2-container">
+    <div id="portfolio-title-container">
+      <h3 id="portfolio-title">Portfolio</h3>
+    </div>
+    <div class="circles-container">
+      <a href="./pages/Agile.html">
+        <img class="circles" src="./images/circles/IK.jpg">
+      </a>
+      <a href="./pages/Libreo.html">
+        <img class="circles" src="./images/circles/lib.jpg">
+      </a>
+      <a href="./pages/Soel.html">
+        <img class="circles" src="./images/circles/soel.jpg">
+      </a>
+      <a href="./pages/Wildflower.html">
+        <img class="circles" src="./images/circles/wildflower.jpg">
+      </a>
+      <a href="./pages/Wildfire.html">
+        <img class="circles" src="./images/circles/map.jpg">
+      </a>
+      <a href="./pages/Outdoorsy.html">
+        <img class="circles" src="./images/circles/outdoorsy.jpg">
+      </a>
+      <a href="./pages/ArtCriticism.html">
+        <img class="circles" src="./images/circles/artandcrit.jpg">
+      </a>
+      <a href="./pages/about.html">
+        <img class="circles" src="./images/index/lets1.png">
+      </a>
+    </div>
+    <footer>
+      <div class="footer" style="text-align: center">
+        <p><b>Copyright</b> Caitlin Reid 2017-2022</p>
+      </div> 
+    </footer>
   </div>
 
-<!-- circles -->
-<div>
-  <div class="circles-container">
-
-    <a href="./pages/Agile.html">
-      <img class="circles" src="./images/circles/IK.jpg">
-    </a>
-    <a href="./pages/Libreo.html">
-      <img class="circles" src="./images/circles/lib.jpg">
-    </a>
-    <a href="./pages/Soel.html">
-      <img class="circles" src="./images/circles/soel.jpg">
-    </a>
-    <a href="./pages/Wildflower.html">
-      <img class="circles" src="./images/circles/wildflower.jpg">
-    </a>
-    <a href="./pages/Wildfire.html">
-      <img class="circles" src="./images/circles/map.jpg">
-    </a>
-    <a href="./pages/Outdoorsy.html">
-      <img class="circles" src="./images/circles/outdoorsy.jpg">
-    </a>
-    <a href="./pages/ArtCriticism.html">
-      <img class="circles" src="./images/circles/artandcrit.jpg">
-    </a>
-    <a href="./pages/about.html">
-      <img class="circles" src="./images/index/lets1.png">
-    </a>
-  </div>
-</div>
-
-
-      <!-- FOOTER -->
-  <footer>
-    <div class="footer" style="text-align: center">
-      <p><b>Copyright</b> Caitlin Reid 2017-2022</p>
-    </div> 
-  </footer>
-  </div>
-
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="./js/materialize.min.js"></script>
   </body>
