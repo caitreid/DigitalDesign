@@ -320,6 +320,8 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  overflow-y: hidden;
 }
 
 #homepage-outdoorsy {
@@ -754,9 +756,8 @@ ul {
   height: 50px;
   width: 100%;
   float: left;
-  margin-top: 10px;
-
-  margin-bottom: 10px;
+  margin: 10px;
+  padding-bottom: 1rem;
   height: auto; 
 }
 
@@ -879,3 +880,27 @@ ul {
 }
 
 
+#logo.menu-items  {
+  width: 80%;
+  margin-top: 50px;
+  padding: 0 1rem;
+} */
+
+.part2-container {
+  height: 100vh; 
+}
+.button-collapse .material-icons {
+  color: white; 
+  font-size: 1.75em;
+  margin: .25em;
+}
+
+.wildflower__video {
+  background-color: #e7ddef;
+  padding: 8rem;
+  display: flex;
+  vertical-align: middle;
+}
+.wildflower__video video {
+  width: 100%;
+}

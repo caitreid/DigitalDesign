@@ -1,19 +1,22 @@
 {
   "name": "portfolio-aug-2017-noreact",
   "version": "1.0.0",
-  "description": "Caitlin Reid August 2017 Portfolio",
+  "description": "Caitlin Reid | August 2017 Portfolio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/caitlinreid1/portfolio.git"
+    "url": "https://github.com/caitreid/portfolio2017.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/caitlinreid1/portfolio/issues"
+    "url": "https://github.com/caitreid/portfolio2017/issues"
   },
-  "homepage": "https://github.com/caitlinreid1/portfolio#readme"
+  "homepage": "https://caitlinreid.net",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
 }
